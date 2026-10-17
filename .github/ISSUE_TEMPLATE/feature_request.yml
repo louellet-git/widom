@@ -1,0 +1,20 @@
+name: Feature request
+description: Ask for something widom should do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What should it do?
+      description: For example, "Henry coefficient of N2 in ZIF-8".
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you need it?
+  - type: textarea
+    id: check
+    attributes:
+      label: How would we know it is right?
+      description: A paper value, a RASPA3 example, or measured data, if you know one.

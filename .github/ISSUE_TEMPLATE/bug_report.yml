@@ -1,0 +1,26 @@
+name: Bug report
+description: Something gave a wrong answer or crashed
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect, and from where?
+      description: For example, the RASPA3 result on the same input.
+  - type: textarea
+    id: repro
+    attributes:
+      label: Input files and command
+      description: Attach or paste the input files and the exact command.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: widom version or commit

@@ -1,0 +1,9 @@
+[package]
+name = "widom"
+version = "0.0.1"
+edition = "2021"
+license = "MIT"
+description = "Monte Carlo adsorption simulator for gases in porous crystals"
+repository = "https://github.com/louellet-git/widom"
+
+[dependencies]
